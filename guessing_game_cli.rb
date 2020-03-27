@@ -10,7 +10,7 @@ def run_guessing_game
     puts "Goodbye!"
   end 
   
-  case guess
+case guess
  if guess == random_num
     puts "You guessed the correct number!"
   else 
