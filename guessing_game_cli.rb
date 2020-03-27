@@ -4,7 +4,7 @@ def run_guessing_game
   
   puts = "Guess a number beteen 1 and 6"
   guess = gets.chomp
-  random_num = rand(1..6)
+  random_num = rand(1..6).to_s
   
   if guess == "exit"
     puts "Goodbye!"
