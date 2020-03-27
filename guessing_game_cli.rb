@@ -11,7 +11,7 @@ def run_guessing_game
   end 
   
 case guess
- if guess == random_num
+ when guess == random_num
     puts "You guessed the correct number!"
   else 
     puts "Sorry! The computer guessed #{random_num}."
