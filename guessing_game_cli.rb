@@ -5,11 +5,9 @@ def run_guessing_game
   guess = gets.chomp
   random_num = rand(1..6)
   
-  if guess == "exit"
-    puts "Goodbye!"
-  end 
-  
 case guess
+ when guess == "exit"
+   puts Goodbye
  when guess == random_num
     puts "You guessed the correct number!"
  when guess != random_num
