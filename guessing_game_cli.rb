@@ -1,6 +1,5 @@
 # Code your solution here!
 def run_guessing_game
-  guess = ""
   
   puts = "Guess a number beteen 1 and 6"
   guess = gets.chomp
